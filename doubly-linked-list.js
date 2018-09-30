@@ -74,6 +74,7 @@ DoublyLinkedList.prototype.removeLast = function() {
 DoublyLinkedList.prototype.clear = function() {
   this.head = null;
   this.tail = null;
+  this.count = 0;
 };
 
 DoublyLinkedList.prototype.getIterator = function*() {

@@ -68,6 +68,7 @@ LinkedList.prototype.removeLast = function() {
 LinkedList.prototype.clear = function() {
   this.head = null;
   this.tail = null;
+  this.count = 0;
 };
 
 LinkedList.prototype.getIterator = function*() {
