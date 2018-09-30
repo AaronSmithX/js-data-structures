@@ -65,6 +65,11 @@ LinkedList.prototype.removeLast = function() {
   }
 };
 
+LinkedList.prototype.clear = function() {
+  this.head = null;
+  this.tail = null;
+};
+
 LinkedList.prototype.getIterator = function*() {
   let current = this.head;
   while (current !== null) {

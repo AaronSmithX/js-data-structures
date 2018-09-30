@@ -71,6 +71,11 @@ DoublyLinkedList.prototype.removeLast = function() {
   }
 };
 
+DoublyLinkedList.prototype.clear = function() {
+  this.head = null;
+  this.tail = null;
+};
+
 DoublyLinkedList.prototype.getIterator = function*() {
   let current = this.head;
   while (current !== null) {
